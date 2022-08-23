@@ -155,6 +155,23 @@ p {
 .donation_plan .plan_box_container .plan_box p {
   padding: 0;
 }
+
+.donation_event {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.donation_event .left_content img {
+  width: 500px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.donation_event .right_content img {
+  width: 500px;
+  border-radius: 5px;
+  margin: 10px;
+}
 .hero_section {
   background-image: url("../assets//images/donation9.jpg");
   background-repeat: no-repeat;
